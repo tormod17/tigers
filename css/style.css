@@ -530,13 +530,13 @@ ul,li{
 	padding-left:25px;	
 }
 
-.main-header .open-hours{
+.main-header .open-hours {
 	position:absolute;
 	right:-26px;
 	top:0px;
 	padding:15px 50px 0px 30px;
 	background:#10bcf4;
-	min-height:80px;
+	min-height:70px;
 	color:#ffffff;
 	font-size:13px;
 	line-height:2em;
@@ -550,6 +550,10 @@ ul,li{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
+}
+
+.main-header .open-hours a {
+	color: blue;
 }
 
 .main-header .open-hours .toggle-open-hours{

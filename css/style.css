@@ -3751,6 +3751,11 @@ width:85%;
 * FAQ Page Styles.
 **/
 
+.faq-img {
+	width:atuo;
+	height:300px;
+}
+
 #faq-page {
 	padding: 40px 0;
 }

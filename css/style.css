@@ -26,6 +26,7 @@
 22. Fact Counter
 23. Training Requirements
 24. Contact Us
+25. Custom
 
 
 **********************************************/
@@ -4020,4 +4021,13 @@ width:85%;
 }
 .home-one-page-version .gallery-filter ul li span:after {
 	transform: skewX(31deg);	
+}
+
+/* Custom */
+.faq-list li {
+	margin:1em;
+	list-style-type: circle;
+}
+.faq h2, .faq h4 {
+		margin:1em 0;
 }

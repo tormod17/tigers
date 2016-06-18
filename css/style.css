@@ -2110,7 +2110,8 @@ ul,li{
 }
 
 .our-team .sec-title{
-	margin-bottom:50px;	
+	margin-bottom:50px;
+	text-align: center;
 }
 
 .our-team .member .image img{

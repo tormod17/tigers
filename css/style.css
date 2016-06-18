@@ -72,6 +72,10 @@ body {
 	font-weight:400;
 	background:#ffffff;
 }
+*{
+	font-family: 'Open Sans', sans-serif;
+
+}
 
 a{
 	text-decoration:none;
@@ -4028,6 +4032,9 @@ width:85%;
 	margin:1em;
 	list-style-type: circle;
 }
-.faq h2, .faq h4 {
+#faq-page h2, #faq-page h4 {
 		margin:1em 0;
+}
+.map-area {
+	margin: 1em;
 }

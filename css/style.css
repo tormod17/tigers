@@ -3754,15 +3754,15 @@ width:85%;
 
 
 /**
-* FAQ Page Styles.
+* taek Page Styles.
 **/
 
-.faq-img {
+.taek-img {
 	width:atuo;
 	height:300px;
 }
 
-#faq-page {
+#taek-page {
 	padding: 40px 0;
 }
 .side-tab ul li a {
@@ -4029,11 +4029,11 @@ width:85%;
 }
 
 /* Custom */
-.faq-list li {
+.taek-list li {
 	margin:1em;
 	list-style-type: circle;
 }
-#faq-page h2, #faq-page h4 {
+#taek-page h2, #taek-page h4 {
 		margin:1em 0;
 }
 .map-area {

@@ -228,21 +228,66 @@
 	}
 	
 	// Google Map Settings
-	if($('#map-location').length){
+	if($('#map1-location').length){
 		var map;
 		 map = new GMaps({
-			el: '#map-location',
-			zoom: 18,
+			el: '#map1-location',
+			zoom: 15,
 			scrollwheel:false,
 			//Set Latitude and Longitude Here
-			lat: -37.817085,
-			lng: 144.955631
+			lat: 51.4872461,
+			lng: -0.1679689 
 		  });
 		  
 		  //Add map Marker
 		  map.addMarker({
-			lat: -37.817085,
-			lng: 144.955631,
+			lat: 51.4872461,
+			lng: -0.1679689,
+			infoWindow: {
+			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+			}
+		 
+		});
+	}
+	
+	
+	if($('#map2-location').length){
+		var map;
+		 map = new GMaps({
+			el: '#map2-location',
+			zoom: 15,
+			scrollwheel:false,
+			//Set Latitude and Longitude Here
+			lat: 51.487833,
+			lng: -0.167388	
+		  });
+		  
+		  //Add map Marker
+		  map.addMarker({
+			lat: 51.487833,
+			lng:-0.167388,
+			infoWindow: {
+			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+			}
+		 
+		});
+	}
+	
+	if($('#map3-location').length){
+		var map;
+		 map = new GMaps({
+			el: '#map3-location',
+			zoom: 15,
+			scrollwheel:false,
+			//Set Latitude and Longitude Here
+			lat:51.4779084,
+			lng:-0.1840343
+		  });
+		  
+		  //Add map Marker
+		  map.addMarker({
+			lat:51.4779084,
+			lng:-0.1840343,
 			infoWindow: {
 			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
 			}

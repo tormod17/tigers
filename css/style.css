@@ -26,6 +26,7 @@
 22. Fact Counter
 23. Training Requirements
 24. Contact Us
+25. Custom
 
 
 **********************************************/
@@ -70,6 +71,10 @@ body {
 	line-height:1.8em;
 	font-weight:400;
 	background:#ffffff;
+}
+*{
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 a{
@@ -530,13 +535,13 @@ ul,li{
 	padding-left:25px;	
 }
 
-.main-header .open-hours{
+.main-header .open-hours {
 	position:absolute;
 	right:-26px;
 	top:0px;
 	padding:15px 50px 0px 30px;
 	background:#10bcf4;
-	min-height:80px;
+	min-height:70px;
 	color:#ffffff;
 	font-size:13px;
 	line-height:2em;
@@ -550,6 +555,10 @@ ul,li{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
+}
+
+.main-header .open-hours a {
+	color: blue;
 }
 
 .main-header .open-hours .toggle-open-hours{
@@ -2101,7 +2110,8 @@ ul,li{
 }
 
 .our-team .sec-title{
-	margin-bottom:50px;	
+	margin-bottom:50px;
+	text-align: center;
 }
 
 .our-team .member .image img{
@@ -3744,10 +3754,15 @@ width:85%;
 
 
 /**
-* FAQ Page Styles.
+* taek Page Styles.
 **/
 
-#faq-page {
+.taek-img {
+	width:atuo;
+	height:300px;
+}
+
+#taek-page {
 	padding: 40px 0;
 }
 .side-tab ul li a {
@@ -4011,4 +4026,16 @@ width:85%;
 }
 .home-one-page-version .gallery-filter ul li span:after {
 	transform: skewX(31deg);	
+}
+
+/* Custom */
+.taek-list li {
+	margin:1em;
+	list-style-type: circle;
+}
+#taek-page h2, #taek-page h4 {
+		margin:1em 0;
+}
+.map-area {
+	margin: 1em;
 }

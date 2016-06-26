@@ -614,10 +614,12 @@
 }
 .fa-twitter:before {
   content: "\f099";
+  color: white;
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
+  color: white;
 }
 .fa-github:before {
   content: "\f09b";
@@ -1186,6 +1188,7 @@
 }
 .fa-youtube:before {
   content: "\f167";
+  color: white;
 }
 .fa-xing:before {
   content: "\f168";
@@ -1351,6 +1354,7 @@
 }
 .fa-google:before {
   content: "\f1a0";
+  color: white;
 }
 .fa-reddit:before {
   content: "\f1a1";

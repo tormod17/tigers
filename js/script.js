@@ -1,4 +1,4 @@
-(function($) {
+	(function($) {
 	
 	"use strict";
 	
@@ -268,7 +268,7 @@
 		wow.init();
 	}
 
-	// faq page toggler
+	// taek page toggler
 	if($('.toggle').length){
 		$('.toggle').find('.toggle-content').hide();
 		$('.toggle-title').on('click', function () {

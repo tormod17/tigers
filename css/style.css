@@ -4029,6 +4029,10 @@ width:85%;
 }
 
 /* Custom */
+
+.margin {
+	margin:2em;
+}
 .taek-list li {
 	margin:1em;
 	list-style-type: circle;
@@ -4036,6 +4040,41 @@ width:85%;
 #taek-page h2, #taek-page h4 {
 		margin:1em 0;
 }
+.img-margin{
+	margin:1em;
+	padding-bottom: 1em;
+}
+
+.img-left {
+	float:left;
+	overflow: auto;
+}
+.align-center-bpadding {
+	text-align: center;
+	margin:1em;
+	padding-bottom: 2em;
+}
 .map-area {
 	margin: 1em;
+}	
+.scroller-image {
+	height: 440px;
+	width:600px;
 }
+
+.message-button {
+	background-color: white;
+	color:#3f4868;
+	padding:10px;
+	font-weight:600;
+}
+.message-button:hover {
+	background-color: grey;
+}
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:150px; /* fixed header height*/
+  margin:-100px 0 0; /* negative fixed header height */
+}
+

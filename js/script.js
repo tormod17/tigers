@@ -295,6 +295,28 @@
 		});
 	}
 	
+	if($('#map4-location').length){
+		var map;
+		 map = new GMaps({
+			el: '#map4-location',
+			zoom: 15,
+			scrollwheel:false,
+			//Set Latitude and Longitude Here
+			lat:51.4379154,
+			lng:0.0402091
+		  });
+		  
+		  //Add map Marker
+		  map.addMarker({
+			lat:51.4379154,
+			lng:0.0402091,
+			infoWindow: {
+			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+			}
+		 
+		});
+	}
+	
 	//Add Scroll Bar To Schedule
 	if($('.schedule-box').length){
 		$(".schedule-box").mCustomScrollbar({

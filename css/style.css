@@ -3974,60 +3974,6 @@ width:85%;
 	line-height: 30px;
 }
 
-/**
-* Home one page version Styles.
-**/
-
-.home-one-page-version .page-banner {
-	padding: 0;
-
-}
-.home-one-page-version .page-banner .auto-container {
-	background-color: #0C1F34;
-	padding: 30px 0;
-	transform: skewX(-31deg);
-	display: block;
-	transition: all .3s ease;
-	max-width: 85%;
-}
-.home-one-page-version .page-banner:hover .auto-container {
-	transform: skewX(31deg);
-	background: #10BCF4;
-}
-.home-one-page-version .page-banner:hover .sec-title {
-	transform: skewX(-31deg);
-}
-.home-one-page-version  .page-banner .sec-title {
-	text-align: center;
-	margin-bottom: 0;
-	transform: skewX(31deg);
-	transition: all .3s ease;
-
-}
-.home-one-page-version  .page-banner .sec-title * {
-	transition: all .3s ease;
-}
-.home-one-page-version  .page-banner .sec-title h2 {
-	margin-bottom: 0;
-	color: #fff;
-}
-.home-one-page-version  .page-banner:hover .sec-title h2 {
-	color: #0C1F34;
-}
-.home-one-page-version  .page-banner:hover .sec-title h3 {
-	color: #fff;
-}
-.home-one-page-version .gallery-filter ul {
-	width: 75%;
-	transform: skewX(31deg);
-}
-.home-one-page-version .gallery-filter ul li span {
-	transform: skewX(-31deg);	
-}
-.home-one-page-version .gallery-filter ul li span:after {
-	transform: skewX(31deg);	
-}
-
 /* Custom */
 
 .margin {
@@ -4077,4 +4023,9 @@ width:85%;
   height:150px; /* fixed header height*/
   margin:-100px 0 0; /* negative fixed header height */
 }
-
+.mapbox h4 {
+    padding:1.5em 0em;
+	background-color:  #0C1F34;
+	color:white;
+	
+}

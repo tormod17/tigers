@@ -264,6 +264,7 @@ ul,li{
 	top:0px;
 	padding:20px 0px;
 	width:100%;
+	height:6em;
 	background:#0c1f34;
 	z-index:999;
 	transition:all 1s ease;
@@ -281,18 +282,24 @@ ul,li{
 	padding:10px 0px;
 }
 
-.main-header .logo{
+.logo{
 	position:relative;
-	float:left;	
+	float:left;
+	background-color: white;
+	padding:0.5em;
+	border-radius: 20%;
+	margin-left: -1em;
+	margin-top: -1em;
+	border:solid 5px #0c1f34;
 }
 
-.main-header .logo img{
+.logo img{
 	position:relative;
 	display:inline-block;
-	max-width:60%;	
+	width:75px;
 }
 
-.main-menu{
+.main-menu {
 	position:relative;
 	float:right;
 	padding:0px 0px;
@@ -331,6 +338,7 @@ ul,li{
 	font-weight:600;
 	text-transform:uppercase;
 	color:#777d83;
+	background-color: #0c1f34;
 	opacity:1;
 	z-index:2;
 	transition:all 500ms ease;
@@ -343,6 +351,7 @@ ul,li{
 	-ms-border-radius:3px 3px 0px 0px;
 	-o-border-radius:3px 3px 0px 0px;
 	-moz-border-radius:3px 3px 0px 0px;
+	background-color:;
 }
 
 .main-menu .navbar-nav > li:after{
@@ -462,6 +471,8 @@ ul,li{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
+	background-color: #0c1f65;
+
 }
 
 .main-menu .navbar-nav > li > ul > li:hover > a{

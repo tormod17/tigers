@@ -222,8 +222,11 @@
 	.main-menu,
 	.main-header .logo{
 		float:none;
-		width:100%;
 		text-align:center;	
+
+	}
+	.logo {
+		width:100px;
 	}
 	
 	.main-menu .navbar-nav > li{
@@ -234,7 +237,7 @@
 	
 	.main-menu .navbar-collapse .navbar-right{
 		float:none;
-		width:100%;
+		width:80%;
 		padding-top:20px;
 	}
 	
@@ -245,6 +248,9 @@
 	
 	.main-menu .navbar-nav li a{
 		text-align:left;
+	}
+	.main-menu .navbar-collapse .navbar-right{
+		margin-top: -130px;
 	}
 }
 

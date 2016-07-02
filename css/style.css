@@ -3860,6 +3860,11 @@ width:85%;
 #image-gallery .mix {
 	display: none;
 }
+
+#image-gallery-photos .mix {
+	display: none;
+}
+
 .gallery-filter ul {
 	text-align: center;
 	background: #0C1F34;

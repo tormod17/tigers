@@ -421,6 +421,14 @@
     	
     }
 
+    function GalleryFilterPhotos () {
+    	if($('#image-gallery-photos').length){
+    		$('#image-gallery-photos').mixItUp();
+    	}
+    	
+    }
+   
+
     // scrolling navigation
     function scrollingNav () {
     	if ($('body.home-one-page-version').length) {
@@ -450,7 +458,16 @@
 				currentLink.parent().removeClass("current");
 			}
 		});
+	}
 
+	function getImagesDirectory(){
+		var url = 'images/'
+		$.ajax({
+			url: url,
+    		success: function (data) {
+    			console.log(data);
+    		}
+		})
 	}
 
 
@@ -465,7 +482,9 @@
 		TestimonialPageCarsoule();
 		backToTop();
 		GalleryFilter();
+		GalleryFilterPhotos();
 		scrollingNav();
+		getImagesDirectory();
 	});
 
 /* ==========================================================================

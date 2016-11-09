@@ -264,6 +264,7 @@ ul,li{
 	top:0px;
 	padding:20px 0px;
 	width:100%;
+	height:6em;
 	background:#0c1f34;
 	z-index:999;
 	transition:all 1s ease;
@@ -281,18 +282,24 @@ ul,li{
 	padding:10px 0px;
 }
 
-.main-header .logo{
+.logo{
 	position:relative;
-	float:left;	
+	float:left;
+	background-color: white;
+	padding:0.5em;
+	border-radius: 20%;
+	margin-left: -1em;
+	margin-top: -0.5em;
+	border:solid 5px #0c1f34;
 }
 
-.main-header .logo img{
+.logo img{
 	position:relative;
 	display:inline-block;
-	max-width:60%;	
+	width:75px;
 }
 
-.main-menu{
+.main-menu {
 	position:relative;
 	float:right;
 	padding:0px 0px;
@@ -320,6 +327,7 @@ ul,li{
 	position:relative;
 	padding:0px;
 	margin-left:15px;	
+	background-color: #0c1f34;
 }
 
 .main-menu .navbar-nav > li > a{
@@ -343,6 +351,7 @@ ul,li{
 	-ms-border-radius:3px 3px 0px 0px;
 	-o-border-radius:3px 3px 0px 0px;
 	-moz-border-radius:3px 3px 0px 0px;
+	
 }
 
 .main-menu .navbar-nav > li:after{
@@ -352,7 +361,7 @@ ul,li{
 	top:0px;
 	width:100%;
 	height:40px;
-	background:#10bcf4;
+	background-color:#10bcf4;
 	z-index:1;
 	opacity:0;
 	transition:all 500ms ease;
@@ -391,6 +400,7 @@ ul,li{
 .main-menu .navbar-nav > li > ul > li:hover > a{
 	color:#ffffff;
 	opacity:1;
+	
 }
 
 .main-menu .navbar-nav > li > ul{
@@ -462,6 +472,8 @@ ul,li{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
+	background-color: #0c1f65;
+
 }
 
 .main-menu .navbar-nav > li > ul > li:hover > a{
@@ -3846,8 +3858,13 @@ width:85%;
 	bottom: 55%;
 }
 #image-gallery .mix {
+	display: none
+}
+
+#image-gallery-photos .mix {
 	display: none;
 }
+
 .gallery-filter ul {
 	text-align: center;
 	background: #0C1F34;
@@ -4028,4 +4045,8 @@ width:85%;
 	background-color:  #0C1F34;
 	color:white;
 	
+}
+.scroll-box {
+    height: 400px;
+    overflow: scroll;
 }

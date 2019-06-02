@@ -175,8 +175,23 @@
 			  $(this).data("origStyle", $(this).attr("style"));
 			});
 			// perform all DOM / CSS modifications
+
+
+
 			setup();
+			customGallerySelector();
 		}
+
+    var customGallerySelector = function() {
+   			var images = $('.img-grid img');
+   			images.on('click', function(){
+				var sources = images.toArray().map(function(image) {return $(image).attr('src')})
+				var url = $(this).attr('src');
+				var currentIndex = sources.indexOf(url)
+    		el.goToSlide(currentIndex);
+    	})
+    }
+
 
 		/**
 		 * Performs all DOM and CSS modifications

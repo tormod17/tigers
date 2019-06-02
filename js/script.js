@@ -144,6 +144,21 @@
 		  infiniteLoop: true
 		});
 	}
+	// // Affiliate slider
+	// 	if ($(".affiliate-slider").length) {
+  //     $(".affiliate-slider .slider").bxSlider({
+	// 			minSlides: 1,
+	// 			maxSlides: 1,
+  //       slideWidth: 150,
+  //       slideMargin: 5,
+  //       useCSS: false,
+  //       ticker: true,
+  //       autoHover: true,
+  //       tickerHover: true,
+  //       speed: 1000,
+  //       infiniteLoop: true
+  //     });
+  //   }
 	
 	//Logo Scroller
 	if($(".logo-scroller").length){
@@ -228,94 +243,94 @@
 	}
 	
 	// Google Map Settings
-	if($('#map1-location').length){
-		var map;
-		 map = new GMaps({
-			el: '#map1-location',
-			zoom: 15,
-			scrollwheel:false,
-			//Set Latitude and Longitude Here
-			lat: 51.4872461,
-			lng: -0.1679689 
-		  });
+	// if($('#map1-location').length){
+	// 	var map;
+	// 	 map = new GMaps({
+	// 		el: '#map1-location',
+	// 		zoom: 15,
+	// 		scrollwheel:false,
+	// 		//Set Latitude and Longitude Here
+	// 		lat: 51.4872461,
+	// 		lng: -0.1679689 
+	// 	  });
 		  
-		  //Add map Marker
-		  map.addMarker({
-			lat: 51.4872461,
-			lng: -0.1679689,
-			infoWindow: {
-			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
-			}
+	// 	  //Add map Marker
+	// 	  map.addMarker({
+	// 		lat: 51.4872461,
+	// 		lng: -0.1679689,
+	// 		infoWindow: {
+	// 		  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+	// 		}
 		 
-		});
-	}
+	// 	});
+	// }
 	
 	
-	if($('#map2-location').length){
-		var map;
-		 map = new GMaps({
-			el: '#map2-location',
-			zoom: 15,
-			scrollwheel:false,
-			//Set Latitude and Longitude Here
-			lat: 51.487833,
-			lng: -0.167388	
-		  });
+	// if($('#map2-location').length){
+	// 	var map;
+	// 	 map = new GMaps({
+	// 		el: '#map2-location',
+	// 		zoom: 15,
+	// 		scrollwheel:false,
+	// 		//Set Latitude and Longitude Here
+	// 		lat: 51.487833,
+	// 		lng: -0.167388	
+	// 	  });
 		  
-		  //Add map Marker
-		  map.addMarker({
-			lat: 51.487833,
-			lng:-0.167388,
-			infoWindow: {
-			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
-			}
+	// 	  //Add map Marker
+	// 	  map.addMarker({
+	// 		lat: 51.487833,
+	// 		lng:-0.167388,
+	// 		infoWindow: {
+	// 		  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+	// 		}
 		 
-		});
-	}
+	// 	});
+	// }
 	
-	if($('#map3-location').length){
-		var map;
-		 map = new GMaps({
-			el: '#map3-location',
-			zoom: 15,
-			scrollwheel:false,
-			//Set Latitude and Longitude Here
-			lat:51.4779084,
-			lng:-0.1840343
-		  });
+	// if($('#map3-location').length){
+	// 	var map;
+	// 	 map = new GMaps({
+	// 		el: '#map3-location',
+	// 		zoom: 15,
+	// 		scrollwheel:false,
+	// 		//Set Latitude and Longitude Here
+	// 		lat:51.4779084,
+	// 		lng:-0.1840343
+	// 	  });
 		  
-		  //Add map Marker
-		  map.addMarker({
-			lat:51.4779084,
-			lng:-0.1840343,
-			infoWindow: {
-			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
-			}
+	// 	  //Add map Marker
+	// 	  map.addMarker({
+	// 		lat:51.4779084,
+	// 		lng:-0.1840343,
+	// 		infoWindow: {
+	// 		  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+	// 		}
 		 
-		});
-	}
+	// 	});
+	// }
 	
-	if($('#map4-location').length){
-		var map;
-		 map = new GMaps({
-			el: '#map4-location',
-			zoom: 15,
-			scrollwheel:false,
-			//Set Latitude and Longitude Here
-			lat:51.4379154,
-			lng:0.0402091
-		  });
+	// if($('#map4-location').length){
+	// 	var map;
+	// 	 map = new GMaps({
+	// 		el: '#map4-location',
+	// 		zoom: 15,
+	// 		scrollwheel:false,
+	// 		//Set Latitude and Longitude Here
+	// 		lat:51.4379154,
+	// 		lng:0.0402091
+	// 	  });
 		  
-		  //Add map Marker
-		  map.addMarker({
-			lat:51.4379154,
-			lng:0.0402091,
-			infoWindow: {
-			  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
-			}
+	// 	  //Add map Marker
+	// 	  map.addMarker({
+	// 		lat:51.4379154,
+	// 		lng:0.0402091,
+	// 		infoWindow: {
+	// 		  content: '<p style="color:#3b3b3b; text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+	// 		}
 		 
-		});
-	}
+	// 	});
+	// }
 	
 	//Add Scroll Bar To Schedule
 	if($('.schedule-box').length){
@@ -367,11 +382,11 @@
         }
     }
     // custom gallery image activer
-    function GalleryImgActivator () {
-    	if($('#gallery-page').length) {
-			$('#gallery-page a').fancybox();
-    	}    	
-    }
+    // function //GalleryImgActivator () {
+    // 	if($('#gallery-page').length) {
+				// $('#gallery-page a').fancybox();
+    // 	}    	
+    // }
     // testimonial page carsoule
     function TestimonialPageCarsoule () {
     	if ($('#testimonials-page .owl-carousel').length) {
@@ -478,13 +493,13 @@
 	$(document).on('ready', function() {
 		headerStyle();
 		sideTab();
-		GalleryImgActivator();
+		//GalleryImgActivator();
 		TestimonialPageCarsoule();
 		backToTop();
 		GalleryFilter();
 		GalleryFilterPhotos();
 		scrollingNav();
-		getImagesDirectory();
+		//getImagesDirectory();
 	});
 
 /* ==========================================================================

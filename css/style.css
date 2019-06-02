@@ -2293,14 +2293,24 @@ ul,li{
 	font-size:16px;
 }
 
+.affiliate-slider,
 .client-logos .logo-scroller{
 	position:relative;
-	width:100%;
-	height:110px;
+	width: 100%;
+	height: 110px;
 	overflow:hidden;	
 }
 
-.client-logos .logo-scroller .slide-item{
+.affiliate-slider {
+	height: 135px;
+	margin: 10px 0px;
+}
+
+.affiliate-slider .buy-button img {
+	width: 50px;
+}
+
+ .slide-item {
 	text-align:center;	
 }
 
@@ -2309,9 +2319,33 @@ ul,li{
 	display:inline-block;	
 }
 
-.client-logos .logo-scroller .bx-viewport{
+.affiliate-slider .bx-viewport,
+.client-logos .logo-scroller .bx-viewport {
 	overflow:visible !important;	
 }
+
+.shop-slide-show .slick-slide a img:first-child {
+	height: 60%;
+}
+
+.shop-slide-show .buy-button {
+	height: 40%;
+}
+
+.shop-slide-show .buy-button p {
+	line-height: 1em;
+	font-size: 8px;
+}
+.shop-slide-show .product,
+.shop-slide-show .slick-slide {
+	height: 110px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: #09b9e5 !important;
+}
+
 
 /*** 
 
@@ -3811,11 +3845,11 @@ width:85%;
 #gallery-page .clearfix > div {
 	padding: 0;
 }
-#gallery-page a {
+/*#gallery-page a {
 	display: block;
 	position: relative;
 	overflow: hidden;
-}
+}*/
 #gallery-page a img {
 	width: 100%;
 }
@@ -3922,6 +3956,19 @@ width:85%;
 	opacity: 1;
 }
 
+#gallery > div > div > img {
+	margin: auto;
+	height: 100px;
+}
+
+.bxslider img {
+	height: 350px;
+	margin: auto;	
+}
+
+.bx-viewport {
+	height: 100%;
+}
 /**
 * Testimonial Page Styles.
 **/
